@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 2%;
+}
+.product{
+    background-color: #fff1fe;
+    margin-top: 5%;
+    width: 30%;
+    text-align: center;
+    font-size: 14px;
+    color: #620063;
+}
+img{
+    width: 80%;
+    height: 50%;
+    align-self: center;
+}
+.btn{
+    background-color: #f500ff;
+    color: #fff1fe;
+    padding: 3% 8%;
+    border: none;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    margin-top: 4%;
+}
+.btn:hover,
+.btn:active{
+    background-color: #ad00b1;
+
+}
+h2{
+    font-size: 16px;
+}
+.discount{
+    font-size: 16px;
+    background: #3d023d;
+    width: 15%;
+    height: 5%;
+    text-align: center;
+    margin-left: 43%;
+    padding: 5px;
+    color: yellow;
+
+}
+.div-add{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+
+
+}
+.price{
+    margin-top: 8%;
+    font-weight: 900;
+    font-size: 18px;
+
+}
